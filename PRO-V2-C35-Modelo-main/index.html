@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    
+    <script src="p5.play.js"></script>
+    
+<!-- O SDK JS do Firebase principal é sempre necessário e deve ser listado primeiro -->
+<script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+<script>
+  var firebaseConfig = {
+apiKey: "AIzaSyBQKmfk2GsebNeq8FeRaNyXGNv6O4xs_qQ",
+authDomain: "bolinha-d4823.firebaseapp.com",
+databaseURL: "https://bolinha-d4823-default-rtdb.firebaseio.com",
+projectId: "bolinha-d4823",
+storageBucket: "bolinha-d4823.appspot.com",
+messagingSenderId: "80141750426",
+appId: "1:80141750426:web:d983fc853eb05a27778f23"
+};
+
+// Initialize Firebase
+  // Configuração do Firebase do seu aplicativo da web
+  //adicione aqui
+  // Inicializar Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+      <script src="sketch.js"></script>
+    </body>
+</html>
